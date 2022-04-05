@@ -14,10 +14,18 @@ router.get('/:id',(req ,res)=>{
 })
 
 
-router.delete('/:id',(req ,res)=>{
-
+router.get('/:id/edit',(req,res) => {
+    //edit form
 })
  
+router.put('/:id',(req,res) => {
+    //capture the data from the update form
+})
+  
+router.delete('/:id', (req,res) => {
+    //delete that user
+})
+
 router.put('/:id',(req ,res)=>{
 
 })
